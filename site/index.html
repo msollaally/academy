@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LMS Home</title>
+</head>
+<body>
+    <h1>Welcome to Learning Management System</h1>
+    
+    <div>
+        <a href="index.html">Home</a> | 
+        <a href="course.html">Courses</a> | 
+        <a href="resources.html">Resources</a>
+    </div>
+    
+    <h2>Available Courses</h2>
+    <ul>
+        <li>Web Development Fundamentals</li>
+        <li>Cloud Computing with AWS</li>
+        <li>DevOps & CI/CD Pipelines</li>
+    </ul>
+    
+    <p>Last updated: <span id="date"></span></p>
+
+    <script>
+        document.getElementById('date').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
