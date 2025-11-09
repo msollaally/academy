@@ -14,7 +14,7 @@ pipeline {
                     echo 'Downloading code from GitHub repository...'
                 }
                 git branch: 'main', 
-                url: 'https://github.com/YOUR_USERNAME/lms-aws-capstone.git'
+                url: 'https://github.com/msollaally/academy'
                 echo '✓ Code checkout completed successfully'
             }
         }
